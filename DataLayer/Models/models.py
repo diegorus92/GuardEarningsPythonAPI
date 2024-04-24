@@ -63,3 +63,15 @@ class Work:
 
     def get_day(self):
         return self._day
+
+work_structure_db = {
+        "guard_id": "",
+        "date": "01-01-2000",
+        "place": "Type <NameObjetive>",
+        "address": "",
+        "checkIn": "22:00",
+        "checkOut": "23:00",
+        "payment_per_hours": 0,
+        "day": ""
+    }
+
